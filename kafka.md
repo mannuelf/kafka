@@ -1,6 +1,6 @@
 # Apache Kafka
 
-Apache Kafka helps you decouple your data streams. It is a distributed system. 
+Apache Kafka helps you decouple your data streams. It is a distributed system.
 
 How we use it at the time of writing...
 
@@ -10,7 +10,7 @@ How we use it at the time of writing...
 
 - Topics are a stream of data, kind of like a database without all the constraints
 - One can have as many topics as you want
-- topic is identified by it name `logfire-cpt-iht`
+- topic is identified by it name
 - Topics are split into partitions
 - each partitions is ordered
 - each message within a partition gets and incremental id, called and offset
@@ -30,7 +30,6 @@ At any given time only one can only have a leader. Only that leader can receive 
 ## Producer
 
 Producers write data to a topic. They only have to specif a topic name and the data will be written to the broker.
-Producers can choos to recievec 
 
 ### ssh into kafka pod
 
